@@ -2,7 +2,7 @@ package ua.epam.javacore.repositories;
 
 import java.util.List;
 
-public interface CrudRepositories<T> {
+public interface CrudRepository<T> {
 
     T getById(Long id);
     List<T> getAll();
